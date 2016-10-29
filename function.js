@@ -48,3 +48,12 @@ function myFunction(){
 
     // "http://teaching.eng.cam.ac.uk/system/files/P1B2010Q002.pdf"
 }
+
+function myFunction2(){
+    //still not working
+    document.getElementById("selectType").reset();
+    document.getElementById("paper").reset();
+    document.getElementById('startYear').value = "";
+    document.getElementById('endYear').value = "";
+
+}
