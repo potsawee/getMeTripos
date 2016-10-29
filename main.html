@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2>IB Engineering Cambridge!!! </h1>
+
+                <h4> What do you want? </h5>
+                <select id="selectType">
+                  <option value="1" selected="selected">Questions Paper</option>
+                  <option value="2">Cribs</option>
+                  <option value="3">Answers</option>
+                </select>
+
+                <h4> Choose subject: </h5>
+                <select id="paper">
+                  <option value="1" selected="selected">Mechanics</option>
+                  <option value="2">Structures</option>
+                  <option value="3">Materials</option>
+                  <option value="4">Thermofluids</option>
+                  <option value="5">Electrical</option>
+                  <option value="6">Information</option>
+                  <option value="7">Maths</option>
+                </select>
+
+                <form>
+                  <h4>From</h4>
+                  <input type="text" name="startingYear" placeholder="e.g. 1998" id="startYear">
+                  <h4>To</h4>
+                  <input type="text" name="lastYear" placeholder="e.g. 2010" id="endYear">
+                </form>
+
+                <button onclick="myFunction()" class="btn btn-danger">Let's Go</button>
+                <button class="btn">Clear</button>
+
+
+            </div>
+        </div>
+    </div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="function.js"></script>
+
+
+
+
+</body>
+</html>
